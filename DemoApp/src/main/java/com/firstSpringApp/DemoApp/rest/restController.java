@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class restController {
 
-    @GetMapping("/")
+    @GetMapping("/wecome")
     public String sayHello() {
         return "Hello Swapnil";
     }
