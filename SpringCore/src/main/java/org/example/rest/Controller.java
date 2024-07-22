@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Controller {
+public class Controller extends Thread{
 
     private Coach mycoach;
     private Coach mycoach1;

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Lazy  // will initialize only if it needed to be inject.
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class CricketCoach implements Coach{
+public class CricketCoach implements Coach {
     @Override
     public String getDailyWorkout() {
         return "Do Bowling workout";
